@@ -1,0 +1,23 @@
+2020-06-07 18:48:33,748 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-06-07 18:49:47,122 [Worker-1: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:ClinicaVeterinaria:0.0.1-SNAPSHOT @ C:\Users\Matheus\Documents\ClinicaDS2\ClinicaVeterinaria\pom.xml.
+2020-06-07 18:49:48,657 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ClinicaVeterinaria/src/main/java
+2020-06-07 18:49:48,658 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ClinicaVeterinaria/src/main/resources
+2020-06-07 18:49:48,665 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ClinicaVeterinaria/src/main/resources
+2020-06-07 18:49:48,676 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ClinicaVeterinaria/src/test/java
+2020-06-07 18:49:49,163 [Worker-1: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2020-06-07 18:49:49,167 [Worker-1: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-06-07 18:49:49,810 [Worker-1: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:ClinicaVeterinaria:0.0.1-SNAPSHOT @ C:\Users\Matheus\Documents\ClinicaDS2\ClinicaVeterinaria\pom.xml.
+2020-06-07 18:49:51,083 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ClinicaVeterinaria/src/main/java
+2020-06-07 18:49:51,083 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ClinicaVeterinaria/src/main/resources
+2020-06-07 18:49:51,084 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ClinicaVeterinaria/src/main/resources
+2020-06-07 18:49:51,084 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ClinicaVeterinaria/src/test/java
+2020-06-07 18:49:51,414 [Worker-1: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-06-07 18:49:52,310 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-07 18:49:52,315 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-07 18:49:52,327 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-07 18:49:52,330 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-07 18:49:52,330 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\ClinicaDS2\ClinicaVeterinaria\src\test\resources
+2020-06-07 18:50:01,331 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-07 18:50:01,332 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-07 18:50:01,333 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-07 18:50:01,335 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
