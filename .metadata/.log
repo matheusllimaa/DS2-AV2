@@ -347,3 +347,9 @@ org.eclipse.jface.text.templates.TemplateException: Template has incomplete vari
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2020-06-07 22:55:16.768
 !MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-06-07 23:52:28.129
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-06-08 00:15:16.153
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
