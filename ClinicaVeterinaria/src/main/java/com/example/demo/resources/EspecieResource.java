@@ -3,28 +3,29 @@ package com.example.demo.resources;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.domain.Especie;
+import com.example.demo.services.EspecieService;
 
 @RestController
 @RequestMapping(value="/especimes")
 public class EspecieResource {
 
-	@RequestMapping(method = RequestMethod.GET)
-public List<Especie> listar(){
+	@Autowired
+	EspecieService service;
+	
+	@RequestMapping(value = "/{id}" ,method = RequestMethod.GET)
+public ResponseEntity<Especie> find(@PathVariable Integer id){
 		
 
-	
-	Especie Esp1 = new Especie(1,"felino");
-	Especie Esp2 = new Especie(2,"canino");
-	
-	List<Especie> lista = new ArrayList<>();
-	
-	lista.add(Esp1);
-	lista.add(Esp2);
-	return lista;
+ Especie obj = service.buscar(id);
+ 
+ return ResponseEntity.ok().body(obj);
 }
 }

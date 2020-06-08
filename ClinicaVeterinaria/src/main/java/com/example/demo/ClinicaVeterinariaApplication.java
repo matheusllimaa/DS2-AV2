@@ -1,13 +1,35 @@
 package com.example.demo;
 
+import java.util.Arrays;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class ClinicaVeterinariaApplication {
+import com.example.demo.domain.Especie;
+import com.example.demo.repositories.EspecieRepository;
 
+@SpringBootApplication
+public class ClinicaVeterinariaApplication implements CommandLineRunner {
+
+	@Autowired
+	EspecieRepository especieRepository;
 	public static void main(String[] args) {
 		SpringApplication.run(ClinicaVeterinariaApplication.class, args);
+	
 	}
+	
+@Override
+public void run(String...args)throws Exception{
+
+
+	Especie Esp1 = new Especie(null,"felinos");
+	Especie Esp2 = new Especie(null,"caninos");
+	
+	this.especieRepository.saveAll(Arrays.asList(Esp1,Esp2));
+}
+
+
 
 }
