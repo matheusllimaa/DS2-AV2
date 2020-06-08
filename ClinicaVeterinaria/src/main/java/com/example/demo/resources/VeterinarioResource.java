@@ -10,21 +10,23 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.domain.Especie;
+
+import com.example.demo.domain.Veterinario;
 import com.example.demo.services.EspecieService;
+import com.example.demo.services.VeterinarioService;
 
 @RestController
-@RequestMapping(value="/especimes")
-public class EspecieResource {
+@RequestMapping(value="/veterinario")
+public class VeterinarioResource {
 
 	@Autowired
-	EspecieService service;
+	VeterinarioService service;
 	
 	@RequestMapping(value = "/id}" ,method = RequestMethod.GET)
-public ResponseEntity<Especie> find(@PathVariable Integer id){
+public ResponseEntity<Veterinario> find(@PathVariable Integer id){
 		
 
- Especie obj = service.buscar(id);
+Veterinario obj = service.buscar(id);
  
  return ResponseEntity.ok().body(obj);
 }

@@ -26,10 +26,6 @@ public Veterinario find(Integer id) {
 CrudRepository<Veterinario, Integer> veterinarioRepository;
 return veterinarioRepository.findById(id).get();
 }
-public Veterinario buscar(Integer id) {
-	// TODO Auto-generated method stub
-	return null;
-}
 
 }
 

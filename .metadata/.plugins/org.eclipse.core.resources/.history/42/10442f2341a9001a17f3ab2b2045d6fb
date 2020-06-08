@@ -15,7 +15,7 @@ import com.example.demo.services.EspecieService;
 
 @RestController
 @RequestMapping(value="/especimes")
-public class EspecieResource {
+public class VeterinarioResource {
 
 	@Autowired
 	EspecieService service;
